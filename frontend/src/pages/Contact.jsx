@@ -7,30 +7,32 @@ const Contact = () => {
   const styles = {
     wrap: { maxWidth: 560, margin: "24px auto", padding: "0 16px" },
     title: { fontSize: 24, fontWeight: 800, marginBottom: 6 },
-    text: { color: "#4b5563", marginBottom: 16, fontSize: 14 },
+    text: { color: "#9ca3af", marginBottom: 16, fontSize: 14 },
     form: { display: "grid", gap: 12 },
     label: { fontWeight: 600, fontSize: 13, marginBottom: 4, display: "block" },
     input: {
       width: "100%",
       padding: "12px 14px",
       borderRadius: 10,
-      border: "1px solid #e5e7eb",
+      border: "1px solid #2a3550",
       outline: "none",
-      background: "#fff"
+      background: "#0f172a",
+      color: "var(--text)"
     },
     textarea: {
       width: "100%",
       minHeight: 120,
       padding: "12px 14px",
       borderRadius: 10,
-      border: "1px solid #e5e7eb",
+      border: "1px solid #2a3550",
       outline: "none",
-      background: "#fff",
+      background: "#0f172a",
+      color: "var(--text)",
       resize: "vertical"
     },
     submit: {
       width: "100%",
-      background: "#111827",
+      background: "var(--primary)",
       color: "#ffffff",
       border: "none",
       padding: "12px 14px",
@@ -38,14 +40,7 @@ const Contact = () => {
       cursor: "pointer",
       fontWeight: 700
     },
-    success: {
-      color: "#166534",
-      background: "#ecfdf5",
-      border: "1px solid #bbf7d0",
-      padding: 12,
-      borderRadius: 10,
-      fontSize: 14
-    }
+    success: { color: "#a7f3d0", background: "#064e3b", border: "1px solid #10b981", padding: 12, borderRadius: 10, fontSize: 14 }
   };
 
   const handleChange = (e) => {

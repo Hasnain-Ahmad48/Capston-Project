@@ -15,10 +15,11 @@ const Home = () => {
       gridTemplateColumns: "1.2fr 0.8fr",
       gap: 24,
       alignItems: "center",
-      background: "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+      background: "linear-gradient(135deg, rgba(14,165,233,0.25) 0%, rgba(124,58,237,0.35) 100%)",
       color: "#ffffff",
       borderRadius: 12,
-      padding: 24
+      padding: 24,
+      border: "1px solid rgba(124,58,237,0.25)"
     },
     heroTitle: {
       fontSize: 36,
@@ -36,29 +37,29 @@ const Home = () => {
       gap: 12
     },
     primaryBtn: {
-      background: "#2563eb",
+      background: "var(--primary)",
       color: "#ffffff",
       border: "none",
       padding: "10px 14px",
-      borderRadius: 8,
+      borderRadius: 10,
       cursor: "pointer",
-      fontWeight: 600
+      fontWeight: 700
     },
     secondaryBtn: {
       background: "transparent",
       color: "#ffffff",
-      border: "1px solid #374151",
+      border: "1px solid rgba(255,255,255,0.35)",
       padding: "10px 14px",
-      borderRadius: 8,
+      borderRadius: 10,
       cursor: "pointer",
-      fontWeight: 600
+      fontWeight: 700
     },
     heroImageWrap: {
       width: "100%",
       height: 260,
       borderRadius: 12,
       overflow: "hidden",
-      border: "1px solid #1f2937",
+      border: "1px solid rgba(124,58,237,0.25)",
       background: "#0b1220"
     },
     heroImage: {
@@ -79,9 +80,9 @@ const Home = () => {
     linkBtn: {
       border: "none",
       background: "transparent",
-      color: "#2563eb",
+      color: "var(--primary)",
       cursor: "pointer",
-      fontWeight: 600
+      fontWeight: 700
     },
     cards: {
       display: "grid",
@@ -89,17 +90,18 @@ const Home = () => {
       gap: 16
     },
     card: {
-      border: "1px solid #e5e7eb",
+      border: "1px solid #2a3550",
       borderRadius: 12,
       overflow: "hidden",
-      background: "#ffffff"
+      background: "#0f172a",
+      color: "var(--text)"
     },
     cardImage: {
       width: "100%",
       height: 140,
       objectFit: "cover",
       display: "block",
-      background: "#f3f4f6"
+      background: "#111827"
     },
     cardBody: {
       padding: 12,
@@ -113,15 +115,16 @@ const Home = () => {
     },
     price: {
       fontWeight: 800,
-      color: "#111827"
+      color: "#ffffff"
     },
     addBtn: {
-      border: "1px solid #111827",
+      border: "1px solid var(--primary)",
+      color: "var(--text)",
       background: "transparent",
-      borderRadius: 6,
+      borderRadius: 10,
       padding: "6px 10px",
       cursor: "pointer",
-      fontWeight: 600
+      fontWeight: 700
     }
   };
 
@@ -180,7 +183,7 @@ const Home = () => {
               <img style={styles.cardImage} alt={item.title} src={item.img} />
               <div style={styles.cardBody}>
                 <div style={{ fontWeight: 700 }}>{item.title}</div>
-                <div style={{ color: "#6b7280", fontSize: 14 }}>{item.subtitle}</div>
+                <div style={{ color: "#9ca3af", fontSize: 14 }}>{item.subtitle}</div>
                 <div style={styles.priceRow}>
                   <span style={styles.price}>{item.price}</span>
                   <button style={styles.addBtn}>Add to cart</button>
