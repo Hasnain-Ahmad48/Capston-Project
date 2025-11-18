@@ -1,16 +1,18 @@
-# React + Vite
+This template offers a minimal setup to get React running with Vite, complete with Hot Module Replacement (HMR) and basic ESLint rules.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Available Official Plugins
 
-Currently, two official plugins are available:
+You can choose between two official Vite plugins for React:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+@vitejs/plugin-react – Uses Babel (or oxc when used with rolldown-vite) to support Fast Refresh.
 
-## React Compiler
+@vitejs/plugin-react-swc – Uses SWC for faster Fast Refresh performance.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+React Compiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The React Compiler is not enabled by default in this template due to its impact on development and build performance. If you want to enable it, refer to the official documentation for guidance.
+
+Extending ESLint Configuration
+
+For production-grade applications, we recommend using TypeScript with type-aware ESLint rules. You can explore the TypeScript template to learn how to integrate TypeScript and typescript-eslint into your project.
