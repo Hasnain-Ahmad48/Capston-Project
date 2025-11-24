@@ -1,18 +1,21 @@
-This template offers a minimal setup to get React running with Vite, complete with Hot Module Replacement (HMR) and basic ESLint rules.
+This template provides a clean and minimal setup for running React with Vite. It comes pre-configured with Hot Module Replacement (HMR) and basic ESLint rules to help you start building fast and maintainable React applications.
 
-Available Official Plugins
+🚀 Available Official Plugins
 
-You can choose between two official Vite plugins for React:
+You can choose from two official Vite plugins tailored for React development:
 
-@vitejs/plugin-react – Uses Babel (or oxc when used with rolldown-vite) to support Fast Refresh.
+@vitejs/plugin-react – Uses Babel (or oxc when used with rolldown-vite) to enable Fast Refresh.
 
-@vitejs/plugin-react-swc – Uses SWC for faster Fast Refresh performance.
+@vitejs/plugin-react-swc – Uses SWC for improved performance and a faster Fast Refresh experience.
 
 
-React Compiler
+⚛️ React Compiler
 
-The React Compiler is not enabled by default in this template due to its impact on development and build performance. If you want to enable it, refer to the official documentation for guidance.
+The React Compiler is disabled by default in this template because it can affect development and build performance.
+If you wish to enable it, please refer to the official React documentation for the recommended setup and configuration instructions.
 
-Extending ESLint Configuration
+📘 Extending ESLint Configuration
 
-For production-grade applications, we recommend using TypeScript with type-aware ESLint rules. You can explore the TypeScript template to learn how to integrate TypeScript and typescript-eslint into your project.
+If you're building a production-level application, we highly recommend using TypeScript along with type-aware ESLint rules for stronger type safety and improved code quality.
+
+Check out the TypeScript template to learn how to integrate:
