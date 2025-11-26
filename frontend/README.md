@@ -1,21 +1,27 @@
-This template provides a clean and minimal setup for running React with Vite. It comes pre-configured with Hot Module Replacement (HMR) and basic ESLint rules to help you start building fast and maintainable React applications.
+This template offers a simple and efficient starting point for building React applications with Vite. It includes Hot Module Replacement (HMR) and basic ESLint configuration out of the box, helping you develop faster and maintain cleaner code.
 
-🚀 Available Official Plugins
+🚀 Official React Plugins for Vite
 
-You can choose from two official Vite plugins tailored for React development:
+You can select from two official plugins optimized for React:
 
-@vitejs/plugin-react – Uses Babel (or oxc when used with rolldown-vite) to enable Fast Refresh.
+@vitejs/plugin-react – Utilizes Babel (or oxc with rolldown-vite) to support Fast Refresh.
 
-@vitejs/plugin-react-swc – Uses SWC for improved performance and a faster Fast Refresh experience.
+@vitejs/plugin-react-swc – Uses SWC, delivering even faster performance and improved Fast Refresh.
 
 
 ⚛️ React Compiler
 
-The React Compiler is disabled by default in this template because it can affect development and build performance.
-If you wish to enable it, please refer to the official React documentation for the recommended setup and configuration instructions.
+By default, the React Compiler is turned off in this template because it may impact development and build performance.
+If you want to enable it, refer to the official React documentation for setup instructions.
 
-📘 Extending ESLint Configuration
+📘 Enhancing ESLint
 
-If you're building a production-level application, we highly recommend using TypeScript along with type-aware ESLint rules for stronger type safety and improved code quality.
+For production-ready applications, it’s recommended to use TypeScript along with type-aware ESLint rules to improve reliability, maintainability, and overall code quality.
 
-Check out the TypeScript template to learn how to integrate:
+Explore the TypeScript template to learn how to configure:
+
+TypeScript
+
+typescript-eslint
+
+Additional linting rules for larger projects
