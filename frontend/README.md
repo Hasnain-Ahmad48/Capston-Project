@@ -1,27 +1,26 @@
-This template offers a simple and efficient starting point for building React applications with Vite. It includes Hot Module Replacement (HMR) and basic ESLint configuration out of the box, helping you develop faster and maintain cleaner code.
+This template provides a clean and efficient foundation for building React applications with Vite. It comes preconfigured with Hot Module Replacement (HMR) and a basic ESLint setup, allowing you to develop quickly while maintaining clean and consistent code.
 
 🚀 Official React Plugins for Vite
 
-You can select from two official plugins optimized for React:
+You can choose from two optimized plugins for React development:
 
-@vitejs/plugin-react – Utilizes Babel (or oxc with rolldown-vite) to support Fast Refresh.
+@vitejs/plugin-react – Powered by Babel (or oxc when paired with rolldown-vite) to enable Fast Refresh.
 
-@vitejs/plugin-react-swc – Uses SWC, delivering even faster performance and improved Fast Refresh.
+@vitejs/plugin-react-swc – Uses SWC for enhanced performance and an even faster Fast Refresh experience.
 
 
 ⚛️ React Compiler
 
-By default, the React Compiler is turned off in this template because it may impact development and build performance.
-If you want to enable it, refer to the official React documentation for setup instructions.
+The React Compiler is disabled by default because it can affect both development and build performance. If you'd like to enable it, refer to the official React documentation for proper setup and configuration guidance.
 
-📘 Enhancing ESLint
+📘 Improving ESLint for Production
 
-For production-ready applications, it’s recommended to use TypeScript along with type-aware ESLint rules to improve reliability, maintainability, and overall code quality.
+For production-grade applications, it's recommended to integrate TypeScript along with type-aware ESLint rules. This combination offers stronger type safety, better maintainability, and improved code quality.
 
-Explore the TypeScript template to learn how to configure:
+Check out the TypeScript template to learn how to configure:
 
 TypeScript
 
 typescript-eslint
 
-Additional linting rules for larger projects
+Advanced linting rules suitable for larger, scalable projects
